@@ -10,7 +10,7 @@
 
 
 <h3>Assignment-2</h3>
-[PhoneBook](https://github.com/AYUSHBlaze/FED-Assignments/tree/master/FED-Assignment2)-->[Demo](https://unruffled-carson-34a1ce.netlify.app/)         <br>
+[PhoneBook](https://github.com/AYUSHBlaze/FED-Assignments/tree/master/FED-Assignment2)-->[Demo](https://unruffled-carson-34a1ce.netlify.app/)
 
 
 <h3>Assignment-3</h3>
