@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 *{
@@ -245,4 +246,253 @@ footer a {
     .heart {
         padding: 0px 4px;
     }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C1C13;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+.feed{
+    justify-content: center;
+    padding-top: 100px;
+    display: grid;
+    grid: repeat(2, 200px) / auto-flow 270px;
+}
+
+.card__category{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color:#ECF0F1;
+    margin: 0;
+}
+
+.card__title{
+    font-size:24px;
+}
+
+li, a, button{
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color:#c670ff;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #b039ff;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #8B1ED5;
+}
+
+/* .card{
+    background-color: pink;
+    background-image: url('/samuel-ferrara-1527pjeb6jg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+} */
+
+.slider {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5%;
+    width: 90vw;
+    height: 70vh;
+    border-radius: 10px;
+    animation-name: sliderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+
+/* Keyframes for slider*/
+
+@keyframes sliderAnim {
+    0% {
+        background-image: url('https://images.pexels.com/photos/5998030/pexels-photo-5998030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20% {
+        background-image: url('https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?cs=srgb&dl=pexels-pixabay-271816.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40% {
+        background-image: url('https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60% {
+        background-image: url('https://images.pexels.com/photos/5814952/pexels-photo-5814952.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    80% {
+        background-image: url('https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100% {
+        background-image: url('https://images.pexels.com/photos/6969781/pexels-photo-6969781.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/* Portfolio Cards */
+
+.cards-head {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2%
+}
+
+.container {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    height: 50vh;
+    margin: 2%;
+}
+
+.cards-img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 40vh;
+    cursor: pointer;
+}
+
+.card-para {
+    margin: 2%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 1% 1.5%;
+}
+
+footer ul li {
+    margin: 0px 4px;
+}
+
+footer a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* Copyright at footer*/
+
+.copyright {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+
+.heart {
+    color: red;
+    padding: 0px 5px;
+}
+
+
+/* Media queries for footer*/
+
+@media screen and (max-width:750px) {
+    .copyright {
+        font-size: 1rem;
+    }
+    .copyright a {
+        padding: 0px 4px;
+    }
+    .heart {
+        padding: 0px 4px;
+    }
+>>>>>>> ed4f97d70a38b6c867eb8127eceda47508f41ba4
 }
